@@ -74,7 +74,12 @@ def verifica_estoque():
 
     linha()
     input("\nPressione enter para ir para a tela inicial...")
-#######
+####### EM CONSTRUCAO
+def custo_mensal():
+    metas = {"jan": 1000, "fev": 1200, "mar": 1100} 
+    gastos = {"jan": 900, "fev": 1350, "mar": 1100}
+    print(f"{metas['jan']}")
+    sleep(2)
 
 
 ##########################################################################################
@@ -100,6 +105,8 @@ def menu():
                 lista_valores()
             case 3:
                 verifica_estoque()
+            case 4:
+                custo_mensal()
 
 # Executa o programa
 if __name__ == "__main__":
