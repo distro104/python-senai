@@ -1,2 +1,2 @@
-# python-senai
-Exercicios desenvolvidos durante o curso de Python no SENAI.
+# python
+### Exercicios feitos durante o curso de estudo da linguagem Python no Senai
